@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    
+}
+.container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #642B73, #C6426E);
+}
+.main{
+    background: white;
+    width:40vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.main p{
+    font-size: 2vw;
+    background-color: white;
+}
+.main h1{
+    font-size: 4vw;
+    font-family: Matemasie;
+}
+.btns{
+    display: flex;
+    gap: 2vw;
+}
+.btns button{
+    padding: 10px 2vw;
+    border: none;
+    outline: none;
+    border-radius: 3vw;
+    cursor: pointer;
+}
+.increase{
+    background: coral;
+    color: white;
+}
